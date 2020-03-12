@@ -1,0 +1,107 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h3{
+    color: #0264fb;
+}
+p {
+  font-size: 1.25em;
+}
+.header nav {
+  text-align: left;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header a{
+    margin-top: 1.7em;
+    margin-left: 5em;
+    text-decoration: none;
+    color: blacks;
+}
+.boton{
+  background-color: #ffb03a;
+  padding: 1em 3em;
+  border-radius: 0.3em;
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: 700;
+  border: none;
+}
+.hero {
+  height: 50em;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  max-width: 100%;
+  background-image: url(../images/assetsExamenIIP/Path.png);
+}
+.hero p, h1{
+    color: black;
+}
+@media (min-width: 768px) {
+    .header nav {
+      flex-direction: row;
+      justify-content:space-evenly
+    }
+    .header a{
+        color: white;
+    }
+    .hero p, h1{
+        color: white;
+    }
+  }
+.gene{
+    color: #ffffff;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido h2{
+    color: #0264fb;
+}
+.contenidoCa{
+    margin: 2em;
+    padding: 2em;
+    padding-inline-start: 5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.azul{
+    background-color: #0264fb;
+}
+.azul h2{
+    color: white;
+}
+.azul h3{
+    color: white;
+}
+.azul p{
+    color: white;
+}
+.cajas2{
+    max-width: 40%;
+}
+.pie{
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media(min-width: 768px){
+    .pie{
+        display: flex;
+        padding: 2em;
+        /* flex-direction: row; */
+    }
+}
